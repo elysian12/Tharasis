@@ -1,0 +1,51 @@
+name: tharasis_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+dependencies:
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  flutter_screenutil: ^5.6.0
+  flutter:
+    sdk: flutter
+ 
+  cupertino_icons: ^1.0.2
+  animate_do: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: assets/font/Dosis-200.ttf
+          weight: 200
+        - asset: assets/font/Dosis-300.ttf
+          weight: 300
+        - asset: assets/font/Dosis-400.ttf
+          weight: 400
+        - asset: assets/font/Dosis-500.ttf
+          weight: 500
+        - asset: assets/font/Dosis-600.ttf
+          weight: 600
+        - asset: assets/font/Dosis-700.ttf
+          weight: 700
+        - asset: assets/font/Dosis-800.ttf
+          weight: 800
